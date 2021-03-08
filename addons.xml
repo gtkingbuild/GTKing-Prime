@@ -23,7 +23,7 @@ Instalador actualizado a la versión 2.2.7
   </extension>
 </addon>
 
-<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="3.0.0" provider-name="Josa, Manu, Davidzgz, Sugea">
+<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="3.0.0" provider-name="Josa, Manu, DavidZgZ, Sugea, Mapache, Zalcos, Tete, Vicente">
 	<requires>
     	<import addon="xbmc.python" version="3.0.0"/>
     	<import addon="script.module.requests" />
