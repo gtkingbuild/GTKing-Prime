@@ -91,7 +91,7 @@ Instalador actualizado a la versión 2.2.3
        <extension point="xbmc.addon.repository" name="Repo GTKING ">
               <info>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/addon.xml</info>
               <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/addons.xml.md5</checksum>
-              <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/</datadir>
+              <datadir zip="true">https://github.com/gtkingbuild/Repo-GTKing/blob/master/repository.repogtking/repository.repogtking-2.4.3.zip</datadir>
        </extension>
        <extension point="xbmc.addon.metadata">
               <summary lang="en">Repo [COLOR dodgerblue]GTKING[/COLOR]</summary>
