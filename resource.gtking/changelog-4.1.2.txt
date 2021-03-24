@@ -1,5 +1,0 @@
-v.4.0
-Version Inicial de la Build GTKing Prime
-
-Version 4.1
-Actualización GTKing Prime con nuevos cambios.
