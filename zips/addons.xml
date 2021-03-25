@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.7" provider-name="Josa, DavidZgZ, Sugea, Mapache, Tete6776, Vicente, zalcos">
+<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.7" provider-name="Josa,DavidZgZ,Sugea">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -11,9 +11,9 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">GTKing [COLOR dodgerblue]WIZARD[/COLOR]</summary>
     <description lang="en">Build GTKing Prime para Kodi 18
-- [COLOR dodgerblue]Testers:[/COLOR] [COLOR lime]Mapache,Tete6776,Vicente,zalcos,Malibu[/COLOR]
+-[COLOR dodgerblue][B]Testers:[/B][/COLOR] [COLOR lime]Mapache,Tete6776,Vicente,zalcos,Malibu[/COLOR]
 
-- [COLOR dodgerblue]Telegram:[/COLOR] [COLOR lime]t.me/beelinkking[/COLOR]</description>
+-[COLOR dodgerblue][B]Telegram:[/B][/COLOR] [COLOR lime]t.me/beelinkking[/COLOR]</description>
 <news>- Build [COLOR dodgerblue]GTKing[/COLOR] [COLOR lime]Prime[/COLOR]
 Instalador actualizado a la versión 2.2.7
 - Cambios de textos al instalar la Build
