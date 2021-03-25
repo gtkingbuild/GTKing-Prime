@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.7" provider-name="Josa,DavidZgZ,Sugea">
+<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.8" provider-name="Josa,DavidZgZ,Sugea">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
