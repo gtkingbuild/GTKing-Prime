@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.repogtking" name="[B]Repo [COLOR dodgerblue]GTKING[/COLOR] [COLOR white]MATRIX[/COLOR][/B]" version="2.5" provider-name="gtkingbuild">
+<addon id="repository.repogtking.Matrix" name="[B]Repo [COLOR dodgerblue]GTKING[/COLOR] [COLOR white]MATRIX[/COLOR][/B]" version="2.5" provider-name="gtkingbuild">
     <extension point="xbmc.addon.repository" name="[B]Repo [COLOR dodgerblue]GTKING[/COLOR] [COLOR white]MATRIX[/COLOR][/B]">
         <dir minversion="18.0" maxversion="18.9.0">
             <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml</info>
