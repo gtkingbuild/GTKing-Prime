@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon
   id="inputstream.adaptive"
@@ -86,9 +86,11 @@ v2.3.14 (2019-02-10)
 
 -[COLOR dodgerblue][B]Telegram:[/B][/COLOR] [COLOR lime]t.me/beelinkking[/COLOR]</description>
 <news>- Plugin.[COLOR dodgerblue]Programa.[/COLOR] [COLOR lime]GTKing[/COLOR]
+27/03/2021
 Instalador actualizado a la versión 2.2.8
 - Cambios en el instalador - Miembros
-27/03/2021
+
+21/12/2020
 Instalador actualizado a la versión 2.2.5
 - Añadido y editado de textos
 
@@ -103,7 +105,7 @@ Instalador actualizado a la versión 2.2.3
 28/09/2020
  Instalador actualizado a la versión 2.2.2
 - Cambios de textos al instalar parche
- 
+
   25/09/2020
   Instalador actualizado a la versión 2.2.1
 - Editar textos
@@ -114,68 +116,6 @@ Instalador actualizado a la versión 2.2.3
 - Limpieza de Kodi automática al instalar la build GTKing Prime.
 - Nuevos iconos en Menu de Ajustes.
  </news>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.78" provider-name="scakemyer">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="xbmc.python" version="2.24.0" />
-        <import addon="repository.quasar" optional="true" />
-        <import addon="script.quasar.burst" optional="true" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="navigation.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.python.module" library="resources/site-packages" />
-    <extension point="xbmc.subtitle.module" library="navigation.py" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Quasar: Torrent streaming</summary>
-        <description lang="en">Quasar is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar project from steeve.</description>
-        <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>all</platform>
-        <website>https://github.com/scakemyer/plugin.video.quasar</website>
-        <source>https://github.com/scakemyer/plugin.video.quasar</source>
-        <forum>http://forum.kodi.tv/showthread.php?tid=257967</forum>
-        <license>Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE</license>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/home.jpg</screenshot>
-            <screenshot>resources/screenshots/movies.jpg</screenshot>
-            <screenshot>resources/screenshots/webui.png</screenshot>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.robtv" name="[B][COLOR skyblue]Rob TV[/COLOR][/B]" version="1.0.1" provider-name="Rob">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="repository.Ghost"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>[COLOR skyblue]Rob TV[/COLOR]</description>
-	<disclaimer></disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -217,46 +157,6 @@ Instalador actualizado a la versión 2.2.3
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone11" name="tvOne11" version="20" provider-name="BEAST">
-  <requires>
-    <import addon="xbmc.python" version="2.26.0"/>
-    <import addon="script.module.pycryptodome" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en_gb">tvOne11</summary>
-    <description lang="en_gb">tvOne11</description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GPL-3.0</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="repository.Ghost" name="[B][COLOR ghostwhite]Ghost[/COLOR] [COLOR FFA0A0A4]Repo[/COLOR][/B]" version="2.0.4" provider-name="Ghost">
-	<extension point="xbmc.addon.repository" name="Ghost Repo">
-		<info compressed="false">https://ghost-repo.de/Plugins/addons.xml</info>
-		<checksum>https://ghost-repo.de/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">https://ghost-repo.de/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR ghostwhite]Ghost[/COLOR] [COLOR FFA0A0A4]Repo[/COLOR]</summary>
-		<description>[COLOR ghostwhite]Ghost[/COLOR] [COLOR FFA0A0A4]Repo[/COLOR]</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="repository.repogtking" name="[B]Repo [COLOR dodgerblue]GTKING[/COLOR][/B]" version="2.7.3" provider-name="gtking">
        <extension point="xbmc.addon.repository" name="Repo GTKING">
               <info>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/addons.xml</info>
@@ -266,7 +166,7 @@ Instalador actualizado a la versión 2.2.3
        <extension point="xbmc.addon.metadata">
               <summary lang="en">Repo [COLOR dodgerblue]GTKING[/COLOR]</summary>
               <description lang="en">Repositorio de addons [COLOR dodgerblue]GTKING[/COLOR]</description>
-              <disclaimer>Esta Repo recoge los addons que hay por la Red.</disclaimer>
+              <disclaimer>Esta Repo, recoge los addons que hay por la Red.</disclaimer>
               <platform>all</platform>
        </extension>
 </addon>
@@ -284,67 +184,6 @@ Instalador actualizado a la versión 2.2.3
     <description lang="en">Comprobador, version Build y Parches de [COLOR dodgerblue]GTKing[/COLOR]</description>
 	<disclaimer lang="en">Nuevo icono de [B][COLOR green]Torrent[/COLOR] MediaExplorer[/B]</disclaimer>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.4" provider-name="beelinkgtking2">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
-
-
-    </requires>
-    <extension point="xbmc.python.script" library="autoexec.py">
-        <provides>executable</provides>
-    </extension>
-	<extension point="xbmc.service" library="autoexec.py">
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Instalador CRISTAL AZUL instalara el addon cristal azul y todas sus dependencias.</summary>
-        <description lang="en_GB"></description>
-        <language></language>
-        <platform>all</platform>
-        <license>unlicense</license>
-        <forum></forum>
-        <website></website>
-        <email></email>
-        <source></source>
-        <news></news>
-        <disclaimer></disclaimer>
-        <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="script.kelebek"
-       name="KELEBEK"
-       version="3.2.2"
-       provider-name="Anabel">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.pyxbmct" version="1.1.4" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.myconnpy" version="1.1.7"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="main.py">
-	<provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>KELEBEK V3.2</summary>
-    <description>Scan Sources searching changes and addons</description>
-    <language></language>
-    <license></license>
-    <source></source>
-    <forum></forum>
-    <website></website>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-	</assets>
   </extension>
 </addon>
 
