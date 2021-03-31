@@ -86,11 +86,9 @@ v2.3.14 (2019-02-10)
 
 -[COLOR dodgerblue][B]Telegram:[/B][/COLOR] [COLOR lime]t.me/beelinkking[/COLOR]</description>
 <news>- Plugin.[COLOR dodgerblue]Programa.[/COLOR] [COLOR lime]GTKing[/COLOR]
-27/03/2021
 Instalador actualizado a la versión 2.2.8
 - Cambios en el instalador - Miembros
-
-21/12/2020
+27/03/2021
 Instalador actualizado a la versión 2.2.5
 - Añadido y editado de textos
 
@@ -166,7 +164,7 @@ Instalador actualizado a la versión 2.2.3
        <extension point="xbmc.addon.metadata">
               <summary lang="en">Repo [COLOR dodgerblue]GTKING[/COLOR]</summary>
               <description lang="en">Repositorio de addons [COLOR dodgerblue]GTKING[/COLOR]</description>
-              <disclaimer>Esta Repo, recoge los addons que hay por la Red.</disclaimer>
+              <disclaimer>Esta Repo recoge los addons que hay por la Red.</disclaimer>
               <platform>all</platform>
        </extension>
 </addon>

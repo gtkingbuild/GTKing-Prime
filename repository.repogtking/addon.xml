@@ -8,7 +8,7 @@
        <extension point="xbmc.addon.metadata">
               <summary lang="en">Repo [COLOR dodgerblue]GTKING[/COLOR]</summary>
               <description lang="en">Repositorio de addons [COLOR dodgerblue]GTKING[/COLOR]</description>
-              <disclaimer>Esta Repo, recoge los addons que hay por la Red.</disclaimer>
+              <disclaimer>Esta Repo recoge los addons que hay por la Red.</disclaimer>
               <platform>all</platform>
        </extension>
 </addon>
