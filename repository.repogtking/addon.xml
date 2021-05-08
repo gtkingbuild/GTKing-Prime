@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.repogtking" name="[B]Repo [COLOR dodgerblue]GTKING[/COLOR][/B]" version="2.7.3" provider-name="gtking">
+<addon id="repository.repogtking" name="[B]Repo [COLOR dodgerblue]GTKING[/COLOR][/B]" version="2.7.5" provider-name="gtking">
        <extension point="xbmc.addon.repository" name="Repo GTKING">
               <info>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/addons.xml</info>
               <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/addons.xml.md5</checksum>
